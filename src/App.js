@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+const bcrypt = require("bcrypt");
+const saltRounds = 10;
 
 function App() {
   return (
